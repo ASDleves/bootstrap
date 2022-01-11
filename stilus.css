@@ -1,0 +1,27 @@
+body {
+    background-image: url(hatter.jpg);
+}
+
+main {
+    max-width: 1000px;
+    width: 800px;
+    background-color: white;
+    grid-template-areas: "h h h" "n n n" "as a a" "as a a" "f f f";
+}
+
+nav {
+    grid-area: n;
+    background-color: rgb(34, 146, 238);
+}
+
+article {
+    grid-area: a;
+}
+
+aside {
+    grid-area: as;
+}
+
+footer {
+    grid-area: f;
+}
